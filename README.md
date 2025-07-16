@@ -12,6 +12,10 @@ This chatbot intelligently routes queries between general conversations and comp
 - **Azure OpenAI Integration**: Leverages Azure OpenAI for advanced language capabilities
 - **Document Management**: Easy document upload and management system
 
+## 🌐 Live Demo
+
+Try the chatbot live at: **https://innovites-chatbot.vercel.app/**
+
 ## 🏗️ Architecture
 
 ```
@@ -321,40 +325,10 @@ npm run build
 npm start
 ```
 
-## 🔒 Security Considerations
+## 👤 About
 
-- Store API keys in environment variables
-- Implement rate limiting for production
-- Add authentication for sensitive endpoints
-- Sanitize user inputs
-- Use HTTPS in production
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📝 License
-
-This project is private and proprietary to InnoVites.
-
-## 📞 Support
-
-For technical support or questions:
-- Email: info@innovites.com
-- Documentation: Check the `LANGGRAPH_SETUP.md` file for detailed setup instructions
-
-## 🔄 Recent Updates
-
-- Implemented LangGraph workflow system
-- Added Weaviate integration for RAG
-- Enhanced query classification
-- Improved error handling
-- Added document upload system
+This project was developed by **Vijayaraj Anbalagan** from **KCG College of Technology** as a take-home assessment demonstrating advanced chatbot capabilities with LangGraph, Azure OpenAI, and Weaviate integration.
 
 ---
 
-**Built with ❤️ by InnoVites - Your strategic partner for digital transformation in the wire and cable industry.**
+**Built with ❤️ for InnoVites - Your strategic partner for digital transformation in the wire and cable industry.**
