@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
+import Chatbot from '@/components/Chatbot';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -1194,6 +1195,9 @@ export default function Home() {
           </div>
         </footer>
       </div>
+      
+      {/* Chatbot Component */}
+      <Chatbot />
     </>
   )
 }
